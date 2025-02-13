@@ -1,24 +1,62 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Build artifacts
+target/
 *.jar
 *.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# IDE configuration files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse configuration files
+.eclipse/
+.classpath
+.project
+.settings/
+
+# NetBeans configuration files
+nbproject/
+
+# Visual Studio Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS specific files
+.DS_Store
+._*
+Thumbs.db
+
+# Maven specific files
+.m2/
+
+# Gradle specific files
+.gradle/
+build/
+
+# Test coverage reports
+coverage/
+
+# Miscellaneous
+*.class
+*.swp
+*.swo
+
+# Spring Boot DevTools
+.spring/
+
+# Optional - if you're using Spring Boot DevTools
+*.h2.db
+*.h2.server.properties
+
+# Mac specific
+.Trashes
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
